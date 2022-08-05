@@ -20,7 +20,7 @@ export default function AboutMay() {
                             titleclass="md text-dark text-center text-lg-start"
                             title={<><strong className="fill" >About </strong> Mayweather <br></br>
                                 BOXING <b className="redcolor" >+</b> <strong>FITNESS</strong></>}
-                            des={<> 
+                            des={<>
                                 <p className="my-3 text-dark  text-center text-lg-start">{check}Customized Workout Plan that makes sense for your goals!</p>
 
                                 <p className="my-3 text-dark  text-center text-lg-start">{check}Simple, easy to follow workouts you can do anywhere!</p>
@@ -43,4 +43,4 @@ export default function AboutMay() {
             </div>
         </div>
     </>
-}
+} 
