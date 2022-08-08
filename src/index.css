@@ -218,7 +218,7 @@ footer{-webkit-clip-path:polygon(0 12%,100%0,100% 100%,0 100%);clip-path:polygon
 .offerInfo p{color:#3dcc4a;font-size:11px;margin:0!important}
 .offerInfo svg{fill:#3dcc4a}
 .offerInfo{position:absolute;right:9px;top:17px}
-input#inputBox{width:100%;border:0} 
+input#inputBox{width:100%;border:0}
 .dateSel>label,.dateSel>svg{position:absolute;left:15px;top:21px;z-index:1}
 .dateSel>label{left:51px;top:11px;color:#fff;font-size:13px}
 .dateSel{position:relative}
@@ -274,7 +274,6 @@ input#inputBox{width:100%;border:0}
 .classesWrapv .checkList{margin:30px 0!important}
 .videoThumb img{max-width:240px}
 .logoWrap img{max-width:140px}
-.testimonialBox{padding:0}
 }
 .mayWeatherVideo{position:relative;padding-left:10px}
 .mayWeatherVideo .videoThumb{position:absolute;top:56%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);left:-40px}

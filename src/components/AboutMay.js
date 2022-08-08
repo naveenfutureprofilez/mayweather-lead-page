@@ -17,9 +17,9 @@ export default function AboutMay() {
         <div className="aboutmay skew">
             <div className="container pt-5 pb-0 skew-rev" >
                 <div className="row align-items-center pb-0 pb-lg-5" >
+                    
                     <div className="col-lg-6 pt-lg-0 mt-lg-4 pt-3 pt-lg-0" >
-                        <Title
-                            titleclass="md text-dark text-start"
+                        <Title titleclass="md text-dark text-start"
                             title={<><strong className="fill" >About </strong> Mayweather <br></br>
                                 BOXING <b className="redcolor" >+</b> <strong>FITNESS</strong></>}
                             des={<>
@@ -32,7 +32,7 @@ export default function AboutMay() {
                             </>}
                             desclass='checkList my-3 text-dark  text-center text-lg-start' />
                         <Button tag="a" href="#booknow" text={"Book Now"} cls="btn btn-primary m-md-0 m-md-0 mt-lg-5 mt-5 d-none d-lg-table" />
-                    </div>
+                    </div>  
 
                     <div className="col-lg-6 ps-xl-5 pt-4 pt-lg-0" >
                         <div className="mayWeatherVideo">
@@ -48,9 +48,10 @@ export default function AboutMay() {
                                 </Popup>
                             </div>
                         </div>
-                        <Button tag="a" href="#booknow" text={"Book Now !"}  
+                        <Button tag="a" href="#booknow" text={"Book Now !"}
                         cls="btn btn-primary m-auto mb-5 mt-3 d-lg-none d-table" />
                     </div>
+
                 </div>
             </div>
         </div>

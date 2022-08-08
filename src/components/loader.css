@@ -1,9 +1,6 @@
-.loader{height:100%;left:0;position:absolute;width:100%;top:0; z-index: 99;}
+.loader{height:100%;left:0;position:absolute;width:100%;top:0;z-index:99;}
 .loader.loader-top{top:0;}
-.loader.loader-bottom {
-    background: rgb(0 0 0 / 75%);
-    bottom: 0;
-}
+.loader.loader-bottom{background:rgb(0 0 0 / 75%);bottom:0;}
 .spinner{border:8px solid #fff;border-right-color:transparent;border-radius:50%;height:30px;left:50%;margin:-23px 0 0 -23px;position:absolute;top:50%;width:30px;-webkit-animation:spinner 1s linear 0s infinite;-moz-animation:spinner 1s linear 0s infinite;animation:spinner 1s linear 0s infinite;}
 .dots{height:8px;left:50%;margin:-4px 0 0 -18px;position:absolute;top:50%;width:36px;}
 .dots .dot{background:#fff;display:block;border-radius:50%;height:8px;float:left;margin:0 2px;opacity:0;width:8px;-webkit-animation:dot 1s cubic-bezier(0.77,0,0.175,1) 0s infinite;-moz-animation:dot 1s cubic-bezier(0.77,0,0.175,1) 0s infinite;animation:dot 1s cubic-bezier(0.77,0,0.175,1) 0s infinite;}

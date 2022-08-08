@@ -106,7 +106,7 @@ export default function HeroForm() {
       inputvalue = e.target.value;
       inputname = e.target.name;
       setData({ ...data, [inputname]: inputvalue });
-   }
+   } 
 
    const [formDone, setFormDone] = useState(false);
    const acceptForm = () => {
@@ -174,6 +174,7 @@ export default function HeroForm() {
                         onChange={inputHandle}
                         value={data.phone} />
                   </div>
+
                   {!phoneValid &&
                      <div className=" my-1 p-2 text-danger invalidError d-block">
                         Enter valid phone number
