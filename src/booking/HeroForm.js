@@ -30,13 +30,18 @@ export default function HeroForm() {
    const [exitsBookingEmailId, setExitsBookingEmailId] = useState();
    const [gymId, setGymId] = useState(); 
    const [phoneValid, setPhoneValid] = useState('phone');
-   const handlePhone = () => checkphone();
+   const handlePhone = () => {
+         checkphone();
+   }
 
    const checkphone = () => {
-      if (data.phone.length == 10) {
-         setPhoneValid(true);
-      } else setPhoneValid(false);
+      setTimeout(()=>{
+         if (data.phone.length == 10) {
+            setPhoneValid(true);
+         } else setPhoneValid(false);
+      }, 2000);
    }
+
    const handleChange = (e) => setLocation(e.target.value);
 
    useEffect(() => {
