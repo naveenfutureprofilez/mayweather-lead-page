@@ -1,19 +1,7 @@
 import Hero from "../components/Hero";
 import ClassesBenefits from "../components/ClassesBenefits";
 import AboutMay from "../components/AboutMay";
-import Title from "../components/common/Title";
 import Button from "../components/common/Button";
-import boxingclasses from "../img/boxingclasses.png";
-
-// classes images 
-import c1 from '../img/c1.png';
-import c2 from '../img/c2.png';
-import c3 from '../img/c3.png';
-import c4 from '../img/c4.png';
-
-// stages
-import stage1 from '../img/stage1.png';
-import stage2 from '../img/stage2.png';
 import trial from '../img/trial.png';
 import Footer from "../components/common/Footer";
 import Testimonials from "../components/Testimonials";

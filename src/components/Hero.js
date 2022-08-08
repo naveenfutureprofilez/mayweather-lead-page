@@ -13,7 +13,7 @@ const Hero = () => {
         <Header />
         <div className='heroContent' >
           <div className='container' >
-            <div className='row  align-items-center' >
+            <div className='row ' >
               <div className='col-lg-6 bannerContent' >
                 <Title
                   titleclass="lg text-white text-center text-lg-start"
@@ -32,7 +32,7 @@ const Hero = () => {
                   </>}
                 />
               </div>
-              <div className='pt-5 pt-lg-0 mt-5 mt-lg-0 col-lg-6 ps-lg-4 ps-xl-3' >
+              <div className='pt-0 pt-lg-0 mt-2 mt-lg-0 col-lg-6 ps-lg-4 ps-xl-3' >
                 <HeroForm />
               </div>
             </div>

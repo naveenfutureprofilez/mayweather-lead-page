@@ -15,7 +15,7 @@ export default function Testimonials() {
                 /> 
 
                 <div className="row mt-5" >
-                    <div className="col-md-4 mb-4" >
+                    <div className="col-md-6 col-lg-4 mb-4" >
                         <div div className="testimonialBox" >
                             <div className="t-img" >
                                 <img src={timg} className="img-fluid" alt="hero form" />
@@ -66,7 +66,7 @@ export default function Testimonials() {
                             </div>
                         </div >
                     </div>
-                    <div className="col-md-4 mb-4" >
+                    <div className="col-md-6 col-lg-4 mb-4" >
                         <div div className="testimonialBox" >
                             <div className="t-img" >
                                 <img src={timg} className="img-fluid" alt="hero form" />
@@ -117,7 +117,7 @@ export default function Testimonials() {
                             </div>
                         </div >
                     </div>
-                    <div className="col-md-4 mb-4" >
+                    <div className="col-md-6 col-lg-4 mb-4" >
                         <div div className="testimonialBox" >
                             <div className="t-img" >
                                 <img src={timg} className="img-fluid" alt="hero form" />
@@ -168,7 +168,7 @@ export default function Testimonials() {
                             </div>
                         </div >
                     </div>
-                    <div className="col-md-4 mb-4" >
+                    <div className="col-md-6 col-lg-4 mb-4" >
                         <div div className="testimonialBox" >
                             <div className="t-img" >
                                 <img src={timg} className="img-fluid" alt="hero form" />
@@ -219,7 +219,7 @@ export default function Testimonials() {
                             </div>
                         </div >
                     </div>
-                    <div className="col-md-4 mb-4" >
+                    <div className="col-md-6 col-lg-4 mb-4" >
                         <div div className="testimonialBox" >
                             <div className="t-img" >
                                 <img src={timg} className="img-fluid" alt="hero form" />
@@ -270,7 +270,7 @@ export default function Testimonials() {
                             </div>
                         </div >
                     </div>
-                    <div className="col-md-4 mb-4" >
+                    <div className="col-md-6 col-lg-4 mb-4" >
                         <div div className="testimonialBox" >
                             <div className="t-img" >
                                 <img src={timg} className="img-fluid" alt="hero form" />

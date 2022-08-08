@@ -1,6 +1,8 @@
 import Button from "./common/Button";
 import Title from "./common/Title";
 import aboutmay from "../img/aboutmay.png";
+import videoThumb from "../img/videoModalPoster.png";
+import Popup from "./common/Popup";
 
 export default function AboutMay() {
 
@@ -17,27 +19,40 @@ export default function AboutMay() {
                 <div className="row align-items-center pb-0 pb-lg-5" >
                     <div className="col-lg-6 pt-lg-0 mt-lg-4 pt-3 pt-lg-0" >
                         <Title
-                            titleclass="md text-dark text-center text-lg-start"
+                            titleclass="md text-dark text-start"
                             title={<><strong className="fill" >About </strong> Mayweather <br></br>
                                 BOXING <b className="redcolor" >+</b> <strong>FITNESS</strong></>}
                             des={<>
-                                <p className="my-3 text-dark  text-center text-lg-start">{check}Customized Workout Plan that makes sense for your goals!</p>
-
-                                <p className="my-3 text-dark  text-center text-lg-start">{check}Simple, easy to follow workouts you can do anywhere!</p>
-
-                                <p className="my-3 text-dark  text-center text-lg-start">{check}A nutrition plan that doesn’t starve you or make you eat things you hate!</p>
-
-                                <p className="my-3 text-dark  text-center text-lg-start">{check}Easy to follow steps to ingrain the right habits in your day-to-day life!</p>
-
-                                <p className="my-3 text-dark  text-center text-lg-start">{check}A team to keep you accountable on a weekly basis!</p>
-
-                                <p className="my-3 text-dark  text-center text-lg-start">{check}A community of people just like you working to see their lives changed!!!</p>
+                                <p className="my-3 text-dark text-start">{check}Customized Workout Plan that makes sense for your goals!</p>
+                                <p className="my-3 text-dark text-start">{check}Simple, easy to follow workouts you can do anywhere!</p>
+                                <p className="my-3 text-dark text-start">{check}A nutrition plan that doesn’t starve you or make you eat things you hate!</p>
+                                <p className="my-3 text-dark text-start">{check}Easy to follow steps to ingrain the right habits in your day-to-day life!</p>
+                                <p className="my-3 text-dark text-start">{check}A team to keep you accountable on a weekly basis!</p>
+                                <p className="my-3 text-dark text-start">{check}A community of people just like you working to see their lives changed!!!</p>
                             </>}
                             desclass='checkList my-3 text-dark  text-center text-lg-start' />
-                        <Button text={"Contact Us"} cls="btn btn-primary m-md-0 m-md-0 mt-lg-5 mt-5 d-table" />
+                        <Button text={"Book Now"} cls="btn btn-primary m-md-0 m-md-0 mt-lg-5 mt-5 d-none d-lg-table" />
                     </div>
+
                     <div className="col-lg-6 ps-xl-5 pt-4 pt-lg-0" >
-                        <img src={aboutmay} className="img-fluid" alt="aboutmay" />
+                        <div className="mayWeatherVideo">
+                            <img src={aboutmay} className="img-fluid" alt="aboutmay" />
+                            <div className="videoThumb" >
+                                <Popup
+                                    modalClass="videoPopup"
+                                    btnclass="my-3 p-0 border-0"
+                                    text={<>
+                                        <img src={videoThumb} className="img-fluid" />
+                                    </>} >
+                                    <iframe src="https://player.vimeo.com/video/668977293?h=3f606f35c0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                                </Popup>
+                            </div>
+                        </div>
+
+                        <Button text={"Book Now !"} cls="
+                        btn btn-primary m-auto mb-5 mt-3 d-lg-none d-table" 
+                        />
+
                     </div>
                 </div>
             </div>

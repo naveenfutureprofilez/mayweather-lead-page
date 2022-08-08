@@ -18,7 +18,7 @@ export default function ClassesBenefits() {
                 <div className="row align-items-center justify-content-center " >
                     <div className="col-lg-9" >
                         <Title
-                            titleclass="md text-white text-center text-lg-start"
+                            titleclass="md text-white text-center"
                             title={<>
                                 Does This Sound
                                 <strong> Like You?</strong></>}
@@ -39,7 +39,7 @@ export default function ClassesBenefits() {
 
                                 <p>{check}You need to break the cycle!!!</p>
                             </>}
-                            desclass='my-3 text-white text-center text-lg-start checkList'
+                            desclass='my-3 text-white text-start checkList'
                         />
                         <Button tag="a" href="#booknow" text={"Book NOW!"} cls="btn btn-primary mt-4 mt-lg-5 m-auto d-table" />
                     </div>
