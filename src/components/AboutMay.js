@@ -31,7 +31,7 @@ export default function AboutMay() {
                                 <p className="my-3 text-dark text-start">{check}A community of people just like you working to see their lives changed!!!</p>
                             </>}
                             desclass='checkList my-3 text-dark  text-center text-lg-start' />
-                        <Button text={"Book Now"} cls="btn btn-primary m-md-0 m-md-0 mt-lg-5 mt-5 d-none d-lg-table" />
+                        <Button tag="a" href="#booknow" text={"Book Now"} cls="btn btn-primary m-md-0 m-md-0 mt-lg-5 mt-5 d-none d-lg-table" />
                     </div>
 
                     <div className="col-lg-6 ps-xl-5 pt-4 pt-lg-0" >
@@ -48,11 +48,8 @@ export default function AboutMay() {
                                 </Popup>
                             </div>
                         </div>
-
-                        <Button text={"Book Now !"} cls="
-                        btn btn-primary m-auto mb-5 mt-3 d-lg-none d-table" 
-                        />
-
+                        <Button tag="a" href="#booknow" text={"Book Now !"}  
+                        cls="btn btn-primary m-auto mb-5 mt-3 d-lg-none d-table" />
                     </div>
                 </div>
             </div>

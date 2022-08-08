@@ -1,16 +1,17 @@
 import background from '../img/herobg.png'
-import Button from './common/Button';
 import Header from './common/Header';
 import Title from './common/Title';
 import HeroForm from '../booking/HeroForm';
 import Popup from './common/Popup';
 import videoPoster from '../img/trainVideoPoster.png';
 const Hero = () => {
+
   return <>
-    <div className="herowrap bgimage position-relative skew" style={{ backgroundImage: `url(${background})` }} >
+    <div className="herowrap bgimage position-relative skew"
+      style={{ backgroundImage: `url(${background})` }} >
       <div className="overlay" ></div>
       <div className="herowrap skew-rev" >
-        <Header />
+        <Header /> 
         <div className='heroContent' >
           <div className='container' >
             <div className='row ' >
@@ -20,7 +21,7 @@ const Hero = () => {
                   title={<>Train Like <strong>The</strong> CHAMP!</>}
                   des="Mayweather Boxing + Fitness Dallas offers an authentic experience for those who want to learn from Floyd’s techniques and training regimens, while getting in the best shape of their lives in a high-intensity group fitness setting. Get started by booking a FREE class!"
                   desclass='py-3 m-0 text-white text-center text-lg-start'
-                  childrenVideo={<> 
+                  childrenVideo={<>
                     <Popup
                       modalClass="videoPopup"
                       btnclass="my-3 p-0 border-0"
