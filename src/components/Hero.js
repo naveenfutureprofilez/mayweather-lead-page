@@ -20,7 +20,9 @@ const Hero = () => {
                 <Title
                   titleclass="lg text-white text-center text-lg-start"
                   title={<>Train Like <strong>The</strong> CHAMP!</>}
-                  des="Mayweather Boxing + Fitness Dallas offers an authentic experience for those who want to learn from Floyd’s techniques and training regimens, while getting in the best shape of their lives in a high-intensity group fitness setting. Get started by booking a FREE class!"
+                  des={<> <Button icon={true} tag="a" href="#booknow" text={"Book Now"} 
+                  cls="btn btn-white d-table m-auto d-lg-none mb-4" /> <p>Mayweather Boxing  + Fitness Dallas offers an authentic experience for those who want to learn from Floyd’s techniques and training regimens, while getting in the best shape of their lives in a high-intensity group fitness setting. Get started by booking a FREE class!</p> 
+                  </>} 
                   desclass='py-3 m-0 text-white text-center text-lg-start'
                   childrenVideo={<>
                     <Popup
@@ -34,8 +36,7 @@ const Hero = () => {
                   </>}
                 />
 
-                <Button icon={true} tag="a" href="#booknow" text={"Book Now"} 
-                cls="btn btn-white d-table m-auto d-lg-none mt-4 mb-0 mb-sm-4" /> 
+               
 
               </div>
               <div className='pt-0 pt-lg-0 mt-2 mt-lg-0 col-lg-6 ps-lg-4 ps-xl-3' >
