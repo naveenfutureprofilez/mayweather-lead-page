@@ -36,7 +36,7 @@ export default function AboutMay() {
 
                     <div className="col-lg-6 ps-xl-5 pt-4 pt-lg-0" >
                         <div className="mayWeatherVideo">
-                            <img src={aboutmay} className="img-fluid" alt="aboutmay" />
+                            <img alt="May Weather" src={aboutmay} className="img-fluid" alt="aboutmay" />
                             <div className="videoThumb" >
                                 <Popup
                                     modalClass="videoPopup"
