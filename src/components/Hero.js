@@ -4,6 +4,7 @@ import Title from './common/Title';
 import HeroForm from '../booking/HeroForm';
 import Popup from './common/Popup';
 import videoPoster from '../img/trainVideoPoster.png';
+import Button from './common/Button';
 const Hero = () => {
 
   return <>
@@ -26,12 +27,16 @@ const Hero = () => {
                       modalClass="videoPopup"
                       btnclass="my-3 p-0 border-0"
                       text={<>
-                        <img src={videoPoster} className="img-fluid" />
+                        <img src={videoPoster} className="img-fluid" alt='poster' />
                       </>} >
-                      <iframe src="https://player.vimeo.com/video/668977293?h=3f606f35c0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                      <iframe title="MayWeather" src="https://player.vimeo.com/video/668977293?h=3f606f35c0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                     </Popup>
                   </>}
                 />
+
+                <Button icon={true} tag="a" href="#booknow" text={"Book Now"} 
+                cls="btn btn-white d-table m-auto d-lg-none mt-4 mb-0 mb-sm-4" /> 
+
               </div>
               <div className='pt-0 pt-lg-0 mt-2 mt-lg-0 col-lg-6 ps-lg-4 ps-xl-3' >
                 <HeroForm />

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import boxingclasses from "../../img/boxingclasses.png";
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import logo from "../../img/Logo.png";
 const Footer = () => {
 
