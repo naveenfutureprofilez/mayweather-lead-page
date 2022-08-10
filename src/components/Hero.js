@@ -21,7 +21,7 @@ const Hero = () => {
                   titleclass="lg text-white text-center text-lg-start"
                   title={<>Train Like <strong>The</strong> CHAMP!</>}
                   des={<> <Button icon={true} tag="a" href="#booknow" text={"Book Now"} 
-                  cls="btn btn-white d-table m-auto d-lg-none mb-4" /> <p>Mayweather Boxing + Fitness Dallas offers an authentic experience for those who want to learn from Floyd’s techniques and training regimens, while getting in the best shape of their lives in a high-intensity group fitness setting. Get started by booking a FREE class!</p>
+                  cls="btn btn-white d-table m-auto d-lg-none mb-4" /> <p>Mayweather Boxing  + Fitness Dallas offers an authentic experience for those who want to learn from Floyd’s techniques and training regimens, while getting in the best shape of their lives in a high-intensity group fitness setting. Get started by booking a FREE class!</p> 
                   </>} 
                   desclass='py-3 m-0 text-white text-center text-lg-start'
                   childrenVideo={<>
